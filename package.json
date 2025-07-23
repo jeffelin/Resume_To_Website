@@ -1,0 +1,64 @@
+{
+  "name": "website-generator",
+  "version": "1.0.0",
+  "description": "A free, open-source tool that converts PDF resumes into beautiful, professional academic portfolio websites",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"node server.js\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js",
+    "server": "node server.js",
+    "client": "vite",
+    "lint": "echo 'No linting configured yet'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "resume",
+    "portfolio",
+    "pdf-parser",
+    "academic",
+    "website-generator",
+    "react",
+    "nodejs",
+    "openai",
+    "ai"
+  ],
+  "author": "Website Generator Team",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "formidable": "^3.5.1",
+    "lowdb": "^7.0.0",
+    "nanoid": "^5.0.4",
+    "openai": "^4.20.1",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.1",
+    "autoprefixer": "^10.4.16",
+    "concurrently": "^8.2.2",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffelin/resume_to_website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffelin/resume_to_website/issues"
+  },
+  "homepage": "https://github.com/jeffelin/resume_to_website#readme"
+}
