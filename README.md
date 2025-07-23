@@ -1,13 +1,6 @@
-# Website Generator
+# Resume To Website 
 
 A free, open-source tool that converts PDF resumes into beautiful, professional academic portfolio websites.
-
-## Why?
-
-- **Privacy**: Your resume data stays on your device
-- **Instant**: Generate a professional academic website in seconds
-- **Clean**: Beautiful, minimalist design perfect for academic portfolios
-- **Free**: No watermarks, subscriptions, or hidden costs
 
 ## Features
 
@@ -18,15 +11,16 @@ A free, open-source tool that converts PDF resumes into beautiful, professional 
 - **JSON Export**: Download your parsed data for further customization
 - **Local Processing**: Your data never leaves your device except for AI processing
 
-## Frontend 
+## How? 
 
-### Upload Resume
+### Upload Your Resume
 
 ![Upload Resume](UploadResume.png)
 
-### Generated Academic Website
+### Generate An Academic Website
 
 ![Generated Website](Website.png)
+
 
 ## Project Structure
 
@@ -76,6 +70,13 @@ website_generator/
 
 6. **Open your browser:**
    - Visit [http://localhost:5173](http://localhost:5173) to use the app.
+
+## Benefits 
+
+- **Privacy**: Your resume data stays on your device
+- **Instant**: Generate a professional academic website in seconds
+- **Clean**: Beautiful, minimalist design perfect for academic portfolios
+- **Free**: No watermarks, subscriptions, or hidden costs
 
 ## License
 
