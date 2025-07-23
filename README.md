@@ -22,11 +22,11 @@ A free, open-source tool that converts PDF resumes into beautiful, professional 
 
 ### Upload Resume
 
-![Upload Resume](public/UploadResume.png)
+![Upload Resume](UploadResume.png)
 
 ### Generated Academic Website
 
-![Generated Website](public/Website.png)
+![Generated Website](Website.png)
 
 ## Project Structure
 
